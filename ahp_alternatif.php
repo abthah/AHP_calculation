@@ -372,7 +372,7 @@ if ($hitung_alternatif && $n_karyawan > 1) {
         <a href="ranking_final_new.php" class="btn btn-success me-2">
             <i class="fas fa-trophy me-2"></i>Lihat Ranking Final
         </a>
-        <a href="tabel_database.php" class="btn btn-primary">
+        <a href="index.php" class="btn btn-primary">
             <i class="fas fa-table me-2"></i>Kembali ke Tabel
         </a>
     </div>

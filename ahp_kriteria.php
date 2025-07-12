@@ -265,7 +265,7 @@ if ($hitung_ahp) {
         <a href="ahp_alternatif.php" class="btn btn-success me-2">
             <i class="fas fa-users me-2"></i>Perbandingan Alternatif
         </a>
-        <a href="tabel_database.php" class="btn btn-primary me-2">
+        <a href="index.php" class="btn btn-primary me-2">
             <i class="fas fa-table me-2"></i>Kembali ke Tabel
         </a>
     </div>

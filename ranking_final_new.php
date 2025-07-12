@@ -288,7 +288,7 @@ try {
         <a href="ahp_alternatif.php" class="btn btn-info me-2">
             <i class="fas fa-users me-2"></i>Ke Alternatif
         </a>
-        <a href="tabel_database.php" class="btn btn-primary">
+        <a href="index.php" class="btn btn-primary">
             <i class="fas fa-table me-2"></i>Kembali ke Tabel
         </a>
     </div>

@@ -224,7 +224,7 @@ $bobot_list = $model->getBobotKriteria();
                                 <button type="submit" name="add" class="btn btn-add text-white me-3">
                                     <i class="fas fa-save me-2"></i>Simpan Karyawan
                                 </button>
-                                <a href="tabel_database.php" class="btn btn-back text-white">
+                                <a href="index.php" class="btn btn-back text-white">
                                     <i class="fas fa-arrow-left me-2"></i>Kembali
                                 </a>
                             </div>

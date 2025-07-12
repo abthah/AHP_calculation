@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!isset($_SESSION['admin'])) {
+    header('Location: login.php');
+    exit();
+}
 require_once 'database_config.php';
 
 // Ambil data karyawan dengan ranking dan nilai kriteria
@@ -311,9 +316,10 @@ foreach ($bobot_list as $nama_kriteria => $bobot) {
                 <a href="ranking_final_new.php" class="btn btn-success me-2">
                     <i class="fas fa-trophy me-2"></i>Ranking Final
                 </a>
-                <a href="edit_database.php" class="btn btn-warning">
-                    <i class="fas fa-database me-2"></i>Edit Database
+                <a href="logout.php" class="btn btn-danger">
+                    <i class="fas fa-sign-out-alt me-2"></i>Logout
                 </a>
+                
             </div>
             </div>
             <div class="card-body">
